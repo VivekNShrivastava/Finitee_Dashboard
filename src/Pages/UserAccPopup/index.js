@@ -306,7 +306,7 @@ function Userpopup(props) {
                             <button onClick={() => handleme(true)}>Active</button>
                             <button onClick={() => handleme(false)}>Inactive</button>
                             <button onClick={() =>handleme1(true)}>Delete</button>
-                            <button onClick={() =>handleme1(false)}>Restore</button>
+                            {/* <button onClick={() =>handleme1(false)}>Restore</button> */}
 
 
 
