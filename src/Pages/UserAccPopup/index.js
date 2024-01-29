@@ -25,6 +25,7 @@ function Userpopup(props) {
     const [isA, setIsA] = useState(true);
     const [previousPosts, setPreviousPosts] = useState([]);
     const [last, setLast] = useState(false)
+    const baseurl =process.env.REACT_APP_BASEURL;
 
 
 
@@ -67,7 +68,7 @@ function Userpopup(props) {
                     };
 
 
-                    const response = await axios.post('https://api.finitee.com/Admin/ShowPostsByUserId', payload, {
+                    const response = await axios.post(`${baseurl}/Admin/ShowPostsByUserId`, payload, {
                         headers: {
                             'Content-Type': 'application/json',
                         },
@@ -84,7 +85,7 @@ function Userpopup(props) {
                         isActive: true,
                         isDeleted: false,
                     };
-                    const res = await axios.post('https://api.finitee.com/Admin/ShowPostsByUserId', traitpaylod, {
+                    const res = await axios.post(`${baseurl}/Admin/ShowPostsByUserId`, traitpaylod, {
                         headers: {
                             'Content-Type': 'application/json',
                         },
@@ -156,7 +157,7 @@ function Userpopup(props) {
             };
 
             const response = await axios.post(
-                'https://api.finitee.com/Admin/ShowPostsByUserId',
+                `${baseurl}/Admin/ShowPostsByUserId`,
                 payload,
                 {
                     headers: {
@@ -189,7 +190,7 @@ function Userpopup(props) {
             };
 
             const response = await axios.post(
-                'https://api.finitee.com/Admin/ShowPostsByUserId',
+                `${baseurl}/Admin/ShowPostsByUserId`,
                 payload,
                 {
                     headers: {

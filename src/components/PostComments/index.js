@@ -21,7 +21,7 @@ function PostComment(props) {
     const [todo, setTodo] = useState("")
     const [option, setOption] = useState("")
     const [reasons, setreasons] = useState("")
-
+    const baseurl =process.env.REACT_APP_BASEURL;
     const showreplies = (e, commentId) => {
         setShowreply(true);
         setLoading(true);
@@ -31,7 +31,7 @@ function PostComment(props) {
             isDeleted: false,
         };
 
-        axios.post('https://api.finitee.com/Admin/GetPostCommentReplies', payload, {
+        axios.post(`${baseurl}/Admin/GetPostCommentReplies`, payload, {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -71,7 +71,7 @@ function PostComment(props) {
                         isDeleted: false,
                     };
     
-                    const response = await axios.post('https://api.finitee.com/Admin/ShowCommentsByPostId', payload, {
+                    const response = await axios.post(`${baseurl}/Admin/ShowCommentsByPostId`, payload, {
                         headers: {
                             'Content-Type': 'application/json',
                         },
@@ -119,7 +119,7 @@ function PostComment(props) {
               reason:reason
 
             }
-            axios.post('https://api.finitee.com/Admin/InactiveOrDeletePost', payload, {
+            axios.post(`${baseurl}/Admin/InactiveOrDeletePost`, payload, {
             headers: {
                 'Content-Type': 'application/json',
             },

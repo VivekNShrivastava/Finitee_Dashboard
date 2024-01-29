@@ -41,7 +41,7 @@ function Accounts(props) {
     const [option, setOption] = useState("")
     const [reasons, setreasons] = useState("")
     const [showdefaultreason , setShowDefaultReason]=useState(true)
-
+    const baseurl =process.env.REACT_APP_BASEURL
 
 
     useEffect(() => {
@@ -53,7 +53,7 @@ function Accounts(props) {
 
 
                 const payload = isActive !== null ? { isActive } : {};
-                const response = await axios.post('https://api.finitee.com/admin/listfreeuser', payload, {
+                const response = await axios.post(`${baseurl}/admin/listfreeuser`, payload, {
                     headers: {
                         'Content-Type': 'application/json',
                     },
@@ -81,7 +81,7 @@ console.log("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
             const payload = isDeleted !== null ? { isDeleted } : {};
             console.log("Payload value", payload);
 
-            const response = await axios.post('https://api.finitee.com/admin/listfreeuser', payload, {
+            const response = await axios.post(`${baseurl}/admin/listfreeuser`, payload, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
@@ -104,7 +104,7 @@ console.log("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
             setLoading(true);
 
             const payload = isActive !== null ? { isActive } : {};
-            const response = await axios.post('https://api.finitee.com/admin/listfreeuser', payload);
+            const response = await axios.post(`${baseurl}/admin/listfreeuser`, payload);
             setData(response.data.ResponseData.Users);
 
             setLoading(false);
@@ -149,7 +149,7 @@ console.log("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
             setLoading(true);
             setActiveButton(null); 
             const payload = {};
-            const response = await axios.post('https://api.finitee.com/admin/listfreeuser', payload, {
+            const response = await axios.post(`${baseurl}/admin/listfreeuser`, payload, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
