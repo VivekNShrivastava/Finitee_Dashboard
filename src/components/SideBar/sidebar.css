@@ -1,0 +1,85 @@
+.menu {
+   
+    background: transparent;
+ 
+
+    border: none;
+
+}
+.ant-menu-item img{
+   text-align: center;
+}
+
+.sidemenu_main {
+    /* padding-left: 30px; */
+    background: rgba(220, 243, 255, 0.72);
+    padding-right: 2px;
+    width: 219px;
+    height: 100%;
+  
+}
+
+.ant-menu.ant-menu-root.ant-menu-vertical {
+    border-inline-end: 0px;
+}
+
+.finitee_logo img {
+    width: 137px;
+    height: 137px;
+    padding-left: 30px;
+    padding-top: 7px;
+}
+.menu_logo{
+    width: 27.242px;
+height: 27.242px;
+padding-top: 4px;
+margin-left: 30px;
+
+}
+
+.ant-menu-title-content{
+    margin-inline-start: 20px;
+    color: #000;
+/* font-family: General Sans; */
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.anticon-border-right{
+    width: 27.242px;
+    height: 27.242px;
+}
+.sidebar_bottom{
+    margin-top: 70px;
+}
+
+.admin{
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    margin-left: 50px;
+}
+.admin_name h1{
+    color: var(--Black, #252525);
+font-family: Cairo;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.admin_name h2{
+    color: var(--Gray-4, #A098AE);
+font-family: Cairo;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.admin_img{
+    margin-top: 10px;
+    width: 38px;
+height: 38px;
+border-radius: 45px;
+background: #A098AE;
+}

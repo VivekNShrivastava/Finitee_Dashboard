@@ -1,0 +1,15 @@
+.shoppinglist_button{
+    width: 252px;
+height: 38px;
+border-radius: 13px;
+background: #ECECEC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border: none;
+color: #000;
+font-family: General Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 30px;
+}

@@ -1,0 +1,151 @@
+.totem_buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cretae_totems {
+    width: 1147px;
+    height: 196px;
+    border-radius: 24px;
+    border: 1px solid #000;
+    display: flex;
+    padding: 30px 20px 10px 50px;
+    margin-top: 40px;
+    margin-left: 26px;
+}
+
+.totem_button {
+    width: 175px;
+    height: 38px;
+    border-radius: 13px;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #000;
+    font-family: General Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.selectype ul li {
+    color: #000;
+    font-family: General Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 29px;
+  
+
+}
+.selectype ul li label{
+    margin-left: 20px;
+}
+
+
+.selectype ul {
+    list-style: none;
+
+}
+
+
+
+.lattitude_longitude {
+    margin-left: 35px;
+}
+
+.latitude p,
+.longitude p,
+.Totem_title p ,
+.totem_description p{
+    color: #000;
+    font-family: General Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.latitude input,
+.longitude input {
+    width: 61px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid #000;
+
+    background-color: white;
+}
+
+.fill_totem {
+    display: flex;
+    gap: 30px;
+}
+
+.longitude {
+    margin-top: 20px;
+}
+
+.Totem_title input {
+    width: 213px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.select_permanent{
+    color: #000;
+font-family: General Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 50px;
+display: flex;
+gap: 20px;
+}
+.select_permanent input{
+    width: 20px;
+height: 11px;
+
+}
+.totem_description{
+    margin-left: 35px;
+}
+
+.totem_description textarea{
+    width: 170px;
+height: 123px;
+border-radius: 4px;
+border: 1px solid #000;
+margin-top: 15px;
+}
+.totem_uploads{
+    margin-left: 35px;
+}
+
+.totem_uploads ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.totem_uploads ul li img{
+    width: 21px;
+    height: 17px;
+    cursor: pointer;
+
+}
+
+.image_section{
+    width: 217px;
+height: 123px;
+border-radius: 4px;
+border: 1px solid #000;
+}
+
+.selectype{
+    display: flex;
+    gap: 20px;
+}

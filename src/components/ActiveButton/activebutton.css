@@ -1,0 +1,38 @@
+.status {
+    display: flex;
+    cursor: pointer;
+  
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.status img {
+    width: 16px;
+    height: 16px;
+   margin-right: 4px;
+  
+
+}
+
+.status {
+    width: 148px;
+    height: 41px;
+    border-radius: 21px;
+    border: 2px solid #6FBF52;
+    justify-content: flex-end;
+    align-items: center;
+    color: #6FBF52;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 3px 8px 4px 14px;
+    
+}
+
+.clicked{
+    background: rgba(120, 206, 90, 0.35);
+
+
+}

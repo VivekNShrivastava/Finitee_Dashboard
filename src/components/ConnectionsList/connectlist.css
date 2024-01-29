@@ -1,0 +1,82 @@
+.showconnections{
+    position:fixed;
+    left: 40%;
+}
+.main-connectview-div{
+    width: 448px;
+height: 570px;
+border-radius: 32px;
+border: 1px solid #000;
+background: #FFF;
+border: none;
+padding: 30px;
+position: relative;
+}
+.showconnections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Grey overlay with 50% opacity */
+  
+  
+
+}
+.specific-connect{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.specific-connect img{
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+.connectsShow-section button{
+
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+background: rgba(79, 69, 182, 0.10);
+border: none;
+color: #34A853;
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 90px;
+
+
+}
+
+.connecter-fullname{
+    color: #000;
+font-family: Cairo;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.connecter-username{
+    color: #000;
+font-family: Cairo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.close-connects{
+   position: absolute;
+   right: 30px;
+  
+}
+.connectsShow-section{
+    margin-top: 50px;
+}

@@ -1,0 +1,262 @@
+.Account_holdersSelect {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Account_holdersSelect button {
+    width: 159px;
+    height: 38px;
+    border-radius: 13px;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: General Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.manual_add {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+.add_acc button {
+    width: 233px;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid #1A96D4;
+    background: #1A96D4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    color: #FFF;
+    font-family: General Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+
+}
+
+.Accountfilling_section {
+    width: 873px;
+    height: 220px;
+    border-radius: 24px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    margin-left: 24px;
+
+}
+
+
+.detailrow1,
+.detailrow2 {
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
+
+}
+
+.detailrow1 p,
+.detailrow2 p {
+    color: #000;
+    font-family: General Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.input_name {
+    width: 151px;
+    height: 28px;
+
+}
+
+.detailrow1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.delete_button {
+    display: flex;
+    width: 110px;
+    height: 30px;
+    padding: 7px 7.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(79, 69, 182, 0.10);
+
+
+
+
+    color: #1A96D4;
+    font-weight: 600;
+}
+
+.Active-button {
+    display: flex;
+    width: 110px;
+    height: 30px;
+    padding: 7px 7.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(79, 69, 182, 0.10);
+
+
+
+
+    color: #00ff51;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.InActive-button {
+    display: flex;
+    width: 110px;
+    height: 30px;
+    padding: 7px 7.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(79, 69, 182, 0.10);
+
+
+
+
+    color: #fb0000;
+    font-weight: 600;
+}
+
+.InActivebutton,
+.activebutton,
+.delete_button {
+    margin-top: 15px;
+    margin-left: 25px;
+    cursor: pointer;
+    width: 149px;
+    height: 38px;
+    border-radius: 13px;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.activebuttonactive {
+    margin-top: 15px;
+    margin-left: 25px;
+    cursor: pointer;
+    width: 149px;
+    height: 38px;
+    border-radius: 13px;
+    border: none;
+
+    background-color: #00ff00;
+}
+
+.InActivebutton.inactive {
+
+    background-color: #ff0000;
+}
+
+.freeusersall.freeuser {
+    background-color: #1A96D4;
+}
+
+.delete_button.delete {
+    color: black;
+    background-color: #fb0000;
+}
+
+.reasons_main {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.allreasons {
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 250px;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 24px;
+
+}
+
+.default_reasons li {
+    color: #6FBF52;
+
+
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.allreasons ul {
+    list-style-type: disc;
+    cursor: pointer;
+
+}
+
+.sendreason {
+    margin-left: 58px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.sendreason button {
+
+    margin-top: 20px;
+    border: none;
+    width: 159px;
+    height: 38px;
+    border-radius: 13px;
+    background: #1A96D4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.reason_input {
+    width: 154px;
+    height: 28px;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+.close-reasons {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    color: #000000;
+
+}

@@ -1,0 +1,185 @@
+.full-post-page {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    overflow-x: auto;
+
+}
+
+.post_mainsquare {
+
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.close-comments {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.postdetails ul li {
+    list-style: none;
+
+}
+
+.postdetails ul li h1 {
+    color: #000;
+    margin-bottom: 20px;
+    font-family: "General Sans";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.comments_div {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+
+/* .comments {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-shrink: 0;
+    border: 2px solid var(--Gray-1, #ffffff);
+    padding-left: 20px;
+} */
+
+.comments_div h1 {
+
+    color: var(--Black, #252525);
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+}
+
+.comments h2 {
+    color: #6B6B6B;
+    font-family: "General Sans";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.comments h3{
+    color: #000;
+font-family: Cairo;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.div1 , .div2{
+    width: 50%;
+    display: flex;
+}
+.usercomments h1{
+    color: #6B6B6B;
+
+/* Text Semi Bold 1 */
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.usercomments{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+
+    padding-left: 20px;
+}
+
+.actions{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+/* .actiononreply{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.actiononreply button{
+    display: flex;
+    width: 80px;
+    padding: 3px 15px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(79, 69, 182, 0.10);
+    border: none;
+} */
+.actions button{
+    display: flex;
+width: 80px;
+padding: 3px 15px 5px 15px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background: rgba(79, 69, 182, 0.10);
+border: none;
+}
+
+.deletecomment{
+    color: #EB4335;
+
+/* Text Semi Bold 1 */
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.activecomment{
+    color: #6FBF52;
+
+/* Text Semi Bold 1 */
+font-family: Cairo;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.repliername{
+    color: #4451ff;
+font-family: "General Sans";
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.postopenimg {
+    width: 249px;
+    height: 249px;
+    border-radius: 31px;
+
+
+}
